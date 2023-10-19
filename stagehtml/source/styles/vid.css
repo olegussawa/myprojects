@@ -1,0 +1,61 @@
+
+h3{
+    color: rgba(179, 231, 233, 0.493);
+}
+
+.bgvideo{
+
+height:70vh;
+width: 100%;
+position: relative;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+.bgvideo video{
+
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    object-fit: cover;
+    z-index: 1;
+    }
+
+.effect{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+background-color: rgba(2, 6, 27, 0.336);
+    object-fit: cover;
+    z-index: 2;
+    
+}
+.video-text{
+
+    color: rgb(233, 232, 223);
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
